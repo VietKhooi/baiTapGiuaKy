@@ -1,4 +1,4 @@
-                                                                      TÓM TẮT NỘI DUNG TRANG WEB
+                                                          TÓM TẮT NỘI DUNG TRANG WEB
 
 *Trang chủ chính để hiển thị thông thin user
 
