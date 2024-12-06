@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(156, 165, 165);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 30px;
+    font-size: 30px;
+    border: 5px solid rgb(84, 165, 131);
+    border-radius: 30px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+input[type=text]{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 400px;
+    padding: auto;
+    margin: 10px;
+    border-radius: 30px;
+}
+input[type=date]{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 400px;
+    padding: auto;
+    margin: 10px;
+    border-radius: 30px;
+}
+select[name=level_id]{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100px;
+    padding: auto;
+    margin: 10px;
+    text-align: center;
+    border-radius: 30px;
+}
+select[name=group_id]{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100px;
+    padding: auto;
+    margin: 10px;
+    text-align: center;
+    border-radius: 30px;
+}
+button[type=submit]{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100px;
+    padding: auto;
+    margin: 10px;
+    text-align: center;
+    border-radius: 30px;
+}
+.editql{
+    padding: 8px 8px;
+    margin-right: 10px;
+    border: 1px solid black;
+    background-color: cadetblue;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
