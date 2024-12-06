@@ -1,4 +1,4 @@
-<?php include "databasename.php"; ?>
+<?php include "databasename.php"; //ket noi CSDL?> 
 
 <!DOCTYPE html>
 <html lang="en">

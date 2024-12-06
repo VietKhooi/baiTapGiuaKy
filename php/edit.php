@@ -1,5 +1,5 @@
 <?php
-include "databasename.php"; 
+include "databasename.php"; //ket noi CSDL
 ////////////////////////////////////////////////////////////////////
 
 //Kiem tra va lam sach gia tri "id"
@@ -14,6 +14,14 @@ if($result->num_rows === 0){
     die("Khong tim thay thong tin!!!");
 }
 $row=$result->fetch_assoc();
+
+
+//////////////////////////////////////////////////////////////////
+//*Ghi chu:
+// echo $row["..."]; : dung de hien thi gia tri cua noi dung trong dau ngoac kep
+//$row : la mot bien mang lien ket chua de lieu mot ban ghi lay tu CSDL
+//Dong 78: dung de quay lai trang chinh hien thi danh sach user
+//Dong 75: dung de luu thong tin sau khi da edit va quay ve trang chinh
 ?>
 
 
@@ -30,6 +38,7 @@ $row=$result->fetch_assoc();
 <body>
     <h1>Edit Student</h1>
     <form action="updateedit.php" method="POST">
+        
         <input type="hidden" name="id" value="<?php echo $row["id"]; ?>">
 
             

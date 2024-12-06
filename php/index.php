@@ -1,10 +1,14 @@
 <?php
 // CSDL
-include "databasename.php";
+include "databasename.php"; //ket noi CSDL
 
 //danh sach sinh vien
 $sql = "SELECT * FROM table_student";
 $result = $conn->query($sql);
+
+//////////////////////////////////////////////////////////////////////////////
+//*Ghi chu:
+//Dong 25->29: Dung de tim kiem thong tin user theo ten va que quan
 ?>
 
 <!DOCTYPE html>

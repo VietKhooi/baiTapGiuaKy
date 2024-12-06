@@ -1,6 +1,6 @@
 
 <?php
-include "databasename.php";
+include "databasename.php"; //ket noi CSDL
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     $id = intval($_POST["id"]); // dung intval de dam bao id la so nguyen
@@ -17,7 +17,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     //thuc hien lenh va kiem tra 
     if($conn->query($sql) === true){
-        
+
         //chuyen sang trang chinh
         header("Location: index.php");
         exit();

@@ -1,13 +1,18 @@
 <?php
-include "databasename.php";
+include "databasename.php"; //ket noi CSDL
 
-$id = intval($_GET["id"]);
-$sql="DELETE FROM table_student WHERE id=$id";
+//nhan gia tri id tu url
+$id = intval($_GET["id"]); //intval dam bao id la so nguyen
+$sql="DELETE FROM table_student WHERE id=$id";  //cau lenh nay dung de xoa ban ghi
 
 if($conn->query($sql) === TRUE){
+
+    //quay lai trang chinh
     header("Location: index.php");
 }
 else{
+
+    //hien thi loi neu co
     echo "Bug: " . $conn->error;
 }
 ?>

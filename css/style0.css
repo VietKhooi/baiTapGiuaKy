@@ -1,13 +1,17 @@
+/* Tao giao dien cho ca phan body */
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
     background: linear-gradient(120deg, #f6d365, #fda085);
 }
+
+/* Theme cho phan chu de */
 h2{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
 
+/* Theme cho phan bang*/
 table {
     width: 100%;
     border-collapse: collapse;
@@ -50,6 +54,8 @@ button[type=submit]{
     height: 30px;
     border-radius: 30px;
 }
+
+/* Theme cho nut edit hien thi o trang chinh phan Function */
 .btn.edit{
     border: 1px solid black;
     background-color: rgb(159, 164, 218);
@@ -62,6 +68,8 @@ button[type=submit]{
     border-radius: 10px;
     
 }
+
+/* Theme cho ca phan td cua 2 nut edit & delete */
 td a.btn{
     padding: 8px 16px;
     margin-right: 10px;
@@ -70,6 +78,8 @@ td a.btn{
     border-radius: 5px;
     text-align: center;
 }
+
+/* Theme cho nut delete hien thi o trang chinh phan Function */
 .btn.delete{
     border: 1px solid black;
     background-color: rgb(230, 62, 62);
@@ -81,9 +91,13 @@ td a.btn{
     text-align: center;
     border-radius: 10px;
 }
+
+/* Can le giua cho TT, Dob, Gender, Home Town, Level, Group, Function */
 .btn.function{
     text-align: center;
 }
+
+/* Thiet ke cho nut Add Student */
 .editadd{
     padding: 8px 16px;
     margin-right: 10px;

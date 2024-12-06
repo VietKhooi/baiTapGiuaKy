@@ -1,3 +1,4 @@
+/* Tao giao dien cho ca phan body */
 body{
     background-color: rgb(156, 165, 165);
     font-family: 'Times New Roman', Times, serif;
@@ -7,10 +8,14 @@ body{
     border: 5px solid rgb(84, 165, 131);
     border-radius: 30px;
 }
+
+/* Theme cho phan chu de */
 h1{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
+
+/* Thiet ke phan nhap thong tin user */
 input[type=text]{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -19,6 +24,8 @@ input[type=text]{
     margin: 10px;
     border-radius: 30px;
 }
+
+/* Thiet ke phan chon ngay/thang/nam sinh cho user */
 input[type=date]{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -27,6 +34,8 @@ input[type=date]{
     margin: 10px;
     border-radius: 30px;
 }
+
+/* Thiet ke cho phan lua chon chuc vu cua user */
 select[name=level_id]{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -36,6 +45,8 @@ select[name=level_id]{
     text-align: center;
     border-radius: 30px;
 }
+
+/* Thiet ke phan lua chon nhom cua user */
 select[name=group_id]{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -45,6 +56,8 @@ select[name=group_id]{
     text-align: center;
     border-radius: 30px;
 }
+
+/* Thiet ke nut Save(Luu) cua phan them user*/
 button[type=submit]{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -54,6 +67,8 @@ button[type=submit]{
     text-align: center;
     border-radius: 30px;
 }
+
+/* Thiet ke nut quay lai trang chinh cho trang edit student */
 .edit{
     padding: 8px 8px;
     margin-right: 10px;
