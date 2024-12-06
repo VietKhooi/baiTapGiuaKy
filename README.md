@@ -1,3 +1,5 @@
+                                                                      TÓM TẮT NỘI DUNG TRANG WEB
+
 *Trang chủ chính để hiển thị thông thin user
 
 ![Screenshot 2024-12-07 021927](https://github.com/user-attachments/assets/3282b160-ff3c-4f86-bfb3-33d4fa539130)
@@ -33,4 +35,5 @@ Theo quê quán:
 ![Screenshot 2024-12-07 022302](https://github.com/user-attachments/assets/13e0fbb9-bfb4-4e86-9217-955c2ac4f946)
 
 *Hỏi có thật sự muốn xóa không để user lựa chọn
+
 ![Screenshot 2024-12-07 022319](https://github.com/user-attachments/assets/1b4741f1-cd16-4bb6-9e8c-1b491864e084)
